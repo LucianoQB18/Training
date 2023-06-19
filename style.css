@@ -30,6 +30,9 @@ body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
 }
+img {
+  border-radius: 50%;
+}
 #container {
   width: 100%;
   max-width: 588px;
@@ -68,7 +71,7 @@ body * {
   animation: slide-back 0.2s;
 }
 #switch button:hover {
-  outline: 8px solid var(--highlight-color);
+  outline: 8px solid var(--highlight-color)
 }
 .light #switch button {
   animation: slide-in 0.2s forwards;
